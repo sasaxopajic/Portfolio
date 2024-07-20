@@ -1,0 +1,12 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #df0;
+    font-family: "VT323";
+    text-transform: uppercase;
+    font-size: 40px;
+    padding: 60px;
+    gap: 600px;
+}
