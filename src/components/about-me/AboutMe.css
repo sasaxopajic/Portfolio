@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+.about-me-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.about-me-container>div {
+    flex: 1;
+}
+
+.about-me-heading {
+    display: flex;
+    font-weight: 100;
+    font-size: 85px;
+    flex-direction: column;
+    align-items: center;
+    justify-self: right;
+    gap: 25px;
+}
+
+.about-me-heading>div:last-child {
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+.about-me-text {
+    display: flex;
+    flex-direction: column;
+    font-family: poppins;
+    font-weight: 200;
+    line-height: 26px;
+    font-size: 16px;
+    text-align: justify;
+    margin: 0px 50px;
+}
+
+.about-me-image {
+    width: 332px;
+    height: 564px;
+
+}
