@@ -1,0 +1,21 @@
+.heading {
+    font-size: 85px;
+    font-weight: 100;
+    text-transform: lowercase;
+    font-style: italic;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid > li{
+    display: flex;
+}
