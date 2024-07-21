@@ -1,9 +1,12 @@
 import * as React from "react";
 import profilePhoto from '../../assets/profile-photo.png'
+import Navbar from "../navbar/Navbar";
 
 export default function AboutMe() {
     return (
-        <div className="about-me-container">
+        <div>
+            <Navbar />
+            <div className="about-me-container">
             <div className="about-me-heading">
                 <div>get</div><div>to</div><div>know</div><div>me!</div>
             </div>
@@ -16,5 +19,7 @@ export default function AboutMe() {
                 <img src={profilePhoto}></img>
             </div>
         </div>
+        </div>
+        
     )
 }
