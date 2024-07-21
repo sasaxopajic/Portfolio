@@ -1,8 +1,9 @@
 import * as React from "react";
+import styles from './Carousel.module.css';
 
 export default function Carousel() {
     return (
-    <div className="carousel-container">
+    <div className={styles.container}>
         <div>Aesthetics</div>
         <div>/</div>
         <div>Functionality</div>
