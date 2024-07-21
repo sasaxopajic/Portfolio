@@ -1,0 +1,17 @@
+nav > ul{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: aliceblue;
+    margin: 0px;
+}
+
+nav > ul > li{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+}
