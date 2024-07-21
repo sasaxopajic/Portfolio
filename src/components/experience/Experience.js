@@ -4,7 +4,6 @@ import Navbar from '../navbar/Navbar'
 export default function Experience() {
     return (
         <div>
-            <Navbar />
             <div className={styles.experience}>
                 <div className={styles.heading}>experience</div>
                 <ul className={styles.grid}>
