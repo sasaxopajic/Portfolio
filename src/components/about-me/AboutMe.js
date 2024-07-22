@@ -1,6 +1,6 @@
 import * as React from "react";
 import profilePhoto from '../../assets/profile-photo.png'
-import styles from './AboutMe.module.css';
+import styles from './AboutMe.module.scss';
 
 export default function AboutMe() {
     return (

@@ -1,4 +1,4 @@
-import styles from './Footer.module.css';
+import styles from './Footer.module.scss';
 import "@fontsource/vt323"; // Defaults to weight 400
 
 export default function Footer(){

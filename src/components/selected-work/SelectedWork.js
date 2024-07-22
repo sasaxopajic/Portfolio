@@ -1,5 +1,4 @@
-import styles from './SelectedWork.module.css'
-import Navbar from '../navbar/Navbar'
+import styles from './SelectedWork.module.scss'
 
 export default function SelectedWork(){
     return(

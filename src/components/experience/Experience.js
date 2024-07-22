@@ -1,5 +1,4 @@
-import styles from './Experience.module.css'
-import Navbar from '../navbar/Navbar'
+import styles from './Experience.module.scss'
 
 export default function Experience() {
     return (
