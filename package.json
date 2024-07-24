@@ -5,9 +5,11 @@
   "dependencies": {
     "@expo-google-fonts/vt323": "^0.2.3",
     "@fontsource/vt323": "^5.0.13",
+    "@tanstack/react-query": "^5.51.11",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.7.2",
     "json-server": "^0.17.4",
     "node-sass": "^7.0.3",
     "react": "^18.2.0",
@@ -41,6 +43,8 @@
     ]
   },
   "devDependencies": {
-    "webpack": "^5.82.1"
+    "@tanstack/eslint-plugin-query": "^5.51.12",
+    "webpack": "^5.82.1",
+    "@tanstack/react-query-devtools": "^5.51.11"
   }
 }
