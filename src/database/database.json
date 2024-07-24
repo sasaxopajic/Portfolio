@@ -1,0 +1,16 @@
+{
+    "projects": [
+        {
+            "id": 0, "name": "Gitworks", "description": "Created website components, including buttons, icons, navigation menus, forms, tables and more. Worked closely with front-end developers to align component design with the website's goals and functionality. Implemented responsive design."
+        },
+        {
+            "id": 1, "name": "Barbershop", "description": "UI design for a barbershop that entails a visual blueprint for potential improvements and updates of a website I previously developed. It involves envisioning a more modern and user-friendly interface. Kept the design aligned with current trends and user expectations."
+        },
+        {
+            "id": 2, "name": "Movies", "description": "The mockup serves as a detailed blueprint for the layout and design of a movie listing platform. Emphasising ease of navigation, showcasing movie titles, posters, ratings, and other essential information in an organised manner. It also incorporates filters to enable users to refine their movie selection."
+        },
+        {
+            "id": 3, "name": "Zakazivko", "description": "A user-centric solution designed and developed to streamline the process of scheduling appointments at a local barbershop. It offers an intuitive and convenient platform for clients to browse available time slots, select preferred services and book appointments with their chosen barber. The website provides real-time updates on appointment availability."
+        }
+    ]
+}
