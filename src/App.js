@@ -1,28 +1,25 @@
 import './App.scss';
-import AboutMe from './components/about-me/AboutMe';
-import Home from './components/home/Home'
-import Experience from './components/experience/Experience';
-import SelectedWork from './components/selected-work/SelectedWork';
-import Contact from './components/contact/Contact';
-import { Routes, Route, Navigate } from 'react-router-dom';
-import Navbar from './components/navbar/Navbar';
+import AppLayout from './components/app-layout/AppLayout';
+
+/* import {
+  useQuery,
+  QueryClient,
+  QueryClientProvider,
+} from '@tanstack/react-query'
+import { ReactQueryDevtools } from '@tanstack/react-query-devtools'
+
+const queryClient = new QueryClient() */
+
 
 function App() {
   return (
-    <div>
-      <Navbar />
-
-      <Routes>
-        <Route index element={<Navigate to="/home" replace />} />
-        <Route path='/home' element={<Home />} />
-        <Route path='/about-me' element={<AboutMe />} />
-        <Route path='/projects' element={<SelectedWork />} />
-        <Route path='/experience' element={<Experience />} />
-        <Route path='/contact' element={<Contact />} />
-      </Routes>
-    </div>
+    /*  <QueryClientProvider client={queryClient}>
+       <ReactQueryDevtools />
+     </QueryClientProvider> */
+    <AppLayout />
 
   );
 }
+
 
 export default App;
