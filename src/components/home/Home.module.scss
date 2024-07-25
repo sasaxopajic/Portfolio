@@ -1,10 +1,50 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
 .heading {
-    display: flex;
-    font-family: '04b30';
-    text-transform: uppercase;
-    flex-direction: column;
-    align-items: center;
-    font-size: 40px;
-    padding: 80px 0px;
-    gap: 10px;
+  display: flex;
+  font-family: '04b30';
+  text-transform: uppercase;
+  flex-direction: column;
+  align-items: center;
+  font-size: 40px;
+  padding: 80px 0px;
+  gap: 10px;
+}
+
+.rotate {
+  animation: rotate 30s linear infinite;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
   }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.rotate-counterclockwise {
+  animation: counterclockwise 30s linear infinite;
+}
+
+@keyframes counterclockwise {
+  from {
+    transform: rotate(-45deg);
+  }
+
+  to {
+    transform: rotate(-405deg);
+  }
+}
+
+.home {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
