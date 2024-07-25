@@ -1,4 +1,4 @@
-import './App.scss';
+import './App.module.scss';
 import AppLayout from './components/app-layout/AppLayout';
 
 /* import {
