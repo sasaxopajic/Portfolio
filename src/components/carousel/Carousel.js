@@ -3,14 +3,11 @@ import styles from './Carousel.module.scss';
 
 export default function Carousel() {
     return (
-    <div className={styles.container}>
-        <div>Aesthetics</div>
-        <div>/</div>
-        <div>Functionality</div>
-        <div>/</div>
-        <div>Seamless user-experience</div>
-        <div>/</div>
-    </div>
+        <div className={styles.container}>
+            <div className={styles["scrolling-text"]}>
+                <div className={styles.text}>Aesthetics / Functionality / Seamless User-Experience</div>
+            </div>
+        </div>
 
     )
 }

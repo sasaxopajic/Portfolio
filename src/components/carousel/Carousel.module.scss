@@ -6,8 +6,32 @@
     font-family: "VT323";
     font-size: 28px;
     text-transform: uppercase;
-    padding: 8px;
-    color: #fffff0;
-    background-color: #141414;
+    padding: 8px 0px;
+    color: #141414;
+    background-color: #ddff00;
+    border-bottom: 1px solid #141414;
     gap: 8px;
+    overflow: hidden; /* Hide overflow text */
+    position: relative; /* Contain the scrolling text */
+    width: 100%;
+}
+
+.scrolling-text {
+    display: flex; 
+    white-space: nowrap; 
+    width: 100%;
+    animation: scroll-text 20s linear infinite; 
+}
+
+.text{
+    letter-spacing: 4.76px;
+}
+
+@keyframes scroll-text {
+    0% {
+        transform: translateX(100%); /* Start with the text off-screen to the right */
+    }
+    100% {
+        transform: translateX(-100%); /* Move the text off-screen to the left */
+    }
 }
