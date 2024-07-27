@@ -1,0 +1,16 @@
+.scroll-line-wrapper {
+    position: sticky;
+    top: 60px; /* Align to the bottom of the navbar */
+    left: 0; /* Align to the left edge of the viewport */
+    width: 100%; /* Full width of the viewport */
+    height: 5px; /* Height of the scroll line */
+    background-color: #e0e0e0; /* Background color of the line */
+    z-index: 999; /* Ensure it stays above other content */
+}
+
+/* Scroll line styles */
+.scroll-line {
+    height: 100%; /* Full height of the scroll line */
+    background-color: #f00; /* Color of the scroll line */
+    transition: width 0.1s ease; /* Smooth transition effect */
+}
