@@ -16,9 +16,9 @@ export default function Navbar() {
                     <li className={isProjectsActive ? styles.active : ''}>
                         <Link to="/projects">Projects</Link>
                     </li>
-                    <li className={currentPath === "/experience" ? styles.active : ''}>
+                   {/*  <li className={currentPath === "/experience" ? styles.active : ''}>
                         <Link to="/experience">Experience</Link>
-                    </li>
+                    </li> */}
                     <li className={currentPath === "/about-me" ? styles.active : ''}>
                         <Link to="/about-me">About me</Link>
                     </li>
