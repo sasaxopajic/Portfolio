@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import styles from './ProjectNavbar.module.scss';
 import Button from '../../button/Button';
 
-const Navbar = ({ projects, activeProjectId, isProjectPage }) => {
+const ProjectNavbar = ({ projects, activeProjectId, isProjectPage }) => {
     return (
         <ul className={`${styles.navbar} ${isProjectPage ? styles.shrinked : styles.projects}`}>
             {/* Conditionally render project links */}
@@ -45,4 +45,4 @@ const Navbar = ({ projects, activeProjectId, isProjectPage }) => {
     );
 };
 
-export default Navbar;
+export default ProjectNavbar;
