@@ -1,6 +1,13 @@
 .container {
   display: flex;
   flex-direction: column;
+  align-items:center;
+}
+
+.container-row{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .heading {
@@ -42,9 +49,60 @@
   }
 }
 
-.home {
+.decoration {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
+  overflow: hidden;
+  width: 100%;
+}
+
+.decoration > :first-child{
+  position: relative;
+  left: -100px;
+}
+
+.decoration > :last-child{
+  position: relative;
+  right: -100px;
+}
+
+/* .decoration {
+  cursor: pointer; 
+} */
+
+.star:hover {
+    animation: rotateStar 1s cubic-bezier(0.1, 1, 0.8, 1) forwards; /* Apply rotation animation with custom easing */
+    cursor: pointer;
+}
+
+@keyframes rotateStar {
+    from {
+        transform: rotate(0deg); /* Start at 0 degrees */
+    }
+    to {
+        transform: rotate(360deg*2 + 45); /* End at 360 degrees */
+    }
+}
+
+.welcome{
+  width: 600px;
+}
+
+p {
+  width: 400px;
+  text-align: justify;
+  line-height: 22px;
+  letter-spacing: -0.25px;
+  font-weight: 300;
+}
+
+a{
+  color: #141414;
+  text-decoration: none;
+}
+
+.stroke{
+  stroke-width: 0.5;
 }
