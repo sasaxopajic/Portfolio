@@ -1,0 +1,36 @@
+.btn-primary {
+    background-color: #6600cc; /* Purple */
+    color: #fffff0; /* Off-white */
+    padding: 10px 20px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: start;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+    font-family: poppins;
+    text-transform: capitalize;
+  }
+  
+  .btn-primary:hover {
+    background-color: #4b0082; /* Darker Purple */
+  }
+  
+  .btn-secondary {
+    background-color: #4b0082; /* Dark Purple */
+    color: #fffff0; /* Off-white */
+    padding: 10px 20px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: start;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+    font-family: poppins;
+    text-transform: capitalize;
+  }
+  
+  .btn-secondary:hover {
+    background-color: #6600cc; /* Lighter Purple */
+  }
+  
