@@ -1,16 +1,457 @@
 {
-    "projects": [
+  "projects": [
+    {
+      "id": 0,
+      "name": "Gitworks",
+      "images": [
         {
-            "id": 0, "name": "Gitworks", "description": "Created website components, including buttons, icons, navigation menus, forms, tables and more. Worked closely with front-end developers to align component design with the website's goals and functionality. Implemented responsive design."
+          "id": 0,
+          "imageUrl": "/gitworks-images/devices-gitworks.png"
         },
         {
-            "id": 1, "name": "Barbershop", "description": "UI design for a barbershop that entails a visual blueprint for potential improvements and updates of a website I previously developed. It involves envisioning a more modern and user-friendly interface. Kept the design aligned with current trends and user expectations."
+          "id": 1,
+          "imageUrl": "/gitworks-images/1.png"
         },
         {
-            "id": 2, "name": "Movies", "description": "The mockup serves as a detailed blueprint for the layout and design of a movie listing platform. Emphasising ease of navigation, showcasing movie titles, posters, ratings, and other essential information in an organised manner. It also incorporates filters to enable users to refine their movie selection."
+          "id": 2,
+          "imageUrl": "/gitworks-images/2.png"
         },
         {
-            "id": 3, "name": "Zakazivko", "description": "A user-centric solution designed and developed to streamline the process of scheduling appointments at a local barbershop. It offers an intuitive and convenient platform for clients to browse available time slots, select preferred services and book appointments with their chosen barber. The website provides real-time updates on appointment availability."
+          "id": 3,
+          "imageUrl": "/gitworks-images/3.png"
+        },
+        {
+          "id": 4,
+          "imageUrl": "/gitworks-images/4.png"
         }
-    ]
+      ],
+      "description": "Collaborative Innovation Hub",
+      "heading": "Case Study: Front-End Development & Web Design",
+      "overview": "This case study showcases my role in the front-end development and web design of a client project presented at the MDENet Workshop 2022. The project involved leveraging cutting-edge front-end technologies and user-centered design principles to enhance both functionality and visual appeal. Key highlights include innovative design solutions and significant improvements in user interactions and engagement.",
+      "details": {
+        "project": "Gitworks",
+        "duration": "15 months"
+      },
+      "background": "Gitworks is a collaborative platform designed to facilitate innovation and streamline communication within teams. The project was undertaken as part of a broader effort to demonstrate advancements in front-end development at the MDENet Workshop 2022. The goal was to apply the latest technologies and design principles to create a highly functional and visually appealing user interface.",
+      "problem": "The primary challenge was to create a modern and intuitive user interface that showcased new front-end technologies while addressing user experience concerns. Previous iterations of similar platforms often faced issues with outdated designs and inefficient user interactions, making it essential to develop a solution that was both cutting-edge and user-friendly.",
+      "goals": [
+        "Implement advanced front-end technologies to enhance website functionality.",
+        "Design a visually appealing interface that aligns with current design trends.",
+        "Improve user interactions through innovative design solutions.",
+        "Showcase the effectiveness of new design techniques and technologies at the MDENet Workshop."
+      ],
+      "contributions": [
+        {
+          "name": "Front-End Development",
+          "description": [
+            "Led the development of key website components such as buttons, icons, and navigation menus using the latest front-end technologies. Emphasized the integration of advanced features to demonstrate the capabilities of new design techniques and ensure alignment with both aesthetic and functional goals."
+          ]
+        },
+        {
+          "name": "Web Design Enhancement",
+          "description": [
+            "Collaborated closely with stakeholders and designers to implement a modern, user-centered design. The design focused on improving visual appeal and usability, incorporating cutting-edge trends and techniques to create an engaging and intuitive interface. This effort was highlighted during the MDENet Workshop as a case study in effective design."
+          ]
+        },
+        {
+          "name": "Responsive Design Implementation",
+          "description": [
+            "Applied advanced responsive design techniques to optimize the website for various devices and screen sizes. This included ensuring that the site was fully functional across different platforms and incorporating real-time updates to improve user interactions. The successful implementation of responsive design was a key highlight in the workshop presentation."
+          ]
+        }
+      ],
+      "outcomes": [
+        {
+          "name": "Enhanced User Engagement",
+          "description": "The project achieved a significant increase in user engagement through the integration of innovative design elements and improved navigation flows. The enhanced interface contributed to higher user satisfaction and more frequent interactions with the platform."
+        },
+        {
+          "name": "Design Consistency & Brand Alignment",
+          "description": "Maintained a consistent brand representation across all components, reinforcing the project's credibility and effectiveness. The alignment with current design trends and user expectations was successfully demonstrated during the MDENet Workshop."
+        },
+        {
+          "name": "Showcased Innovations",
+          "description": "Highlighted advancements in front-end technology and design at the MDENet Workshop 2022. The project served as a prominent example of how modern design solutions can be applied to enhance user experiences and achieve project goals."
+        }
+      ],
+      "technologies": [
+        "HTML5, CSS3 (Sass/SCSS)",
+        "Typescript",
+        "Angular",
+        "Java",
+        "Version Control (Git)"
+      ],
+      "conclusion": "The Gitworks project exemplifies my expertise in front-end development and web design, showcasing the successful application of advanced technologies and innovative design principles. The project not only met the functional requirements but also stood out as a key case study in modern design practices, as demonstrated at the MDENet Workshop 2022. By leveraging cutting-edge techniques and focusing on user-centric design, the project contributed significantly to enhancing user satisfaction and engagement.",
+      "impact": "The Gitworks platform has become a benchmark for modern collaborative tools, influencing future projects in the field. Its success has paved the way for adopting advanced design techniques in similar applications, setting a new standard for user interface design and functionality.",
+      "userFeedback": [
+        {
+          "feedback": "The new Gitworks interface is incredibly intuitive and engaging. It’s clear that a lot of thought went into making the user experience as seamless as possible.",
+          "source": "User Survey"
+        },
+        {
+          "feedback": "The responsive design is a game-changer. I can now access all features on my mobile device without any issues, which is a huge plus.",
+          "source": "Client Testimonial"
+        }
+      ],
+      "challenges": [
+        {
+          "challenge": "Integrating advanced features without compromising performance. We had to ensure that new functionalities did not slow down the site, requiring careful optimization.",
+          "solution": "We implemented performance profiling and optimizations, such as lazy loading and efficient data management, to maintain a smooth user experience."
+        },
+        {
+          "challenge": "Maintaining design consistency across various devices and screen sizes. Ensuring a uniform experience was crucial for user satisfaction.",
+          "solution": "Extensive testing and adjustments were made to the responsive design to ensure consistent appearance and functionality across all devices."
+        }
+      ],
+      "designIterations": [
+        {
+          "iteration": "Initial Prototypes",
+          "description": "The first set of prototypes focused on basic layout and functionality. Early feedback highlighted the need for more intuitive navigation and interactive elements.",
+          "outcome": "Revised prototypes included enhanced navigation features and interactive components based on initial feedback."
+        },
+        {
+          "iteration": "High-Fidelity Mockups",
+          "description": "These mockups incorporated advanced design elements and real content. They were used for further user testing and feedback collection.",
+          "outcome": "Final design adjustments were made to align with user preferences and ensure a polished, functional end product."
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "Barbershop",
+      "images": [
+        {
+          "id": 0,
+          "imageUrl": "/barbershop-images/devices-barbershop.png"
+        },
+        {
+          "id": 1,
+          "imageUrl": "/barbershop-images/1.png"
+        },
+        {
+          "id": 2,
+          "imageUrl": "/barbershop-images/2.png"
+        },
+        {
+          "id": 3,
+          "imageUrl": "/barbershop-images/3.png"
+        },
+        {
+          "id": 4,
+          "imageUrl": "/barbershop-images/4.png"
+        },
+        {
+          "id": 5,
+          "imageUrl": "/barbershop-images/5.png"
+        }
+      ],
+      "description": "Appointment booking application",
+      "heading": "Case Study: Modern UI Design for Barbershop Website",
+      "overview": "This project involved the redesign of a barbershop’s website with a focus on modernizing its appearance and enhancing functionality. The goal was to create a more contemporary and user-friendly interface that would resonate with current design trends and improve user engagement. Over a period of two months, I worked on transforming the website into an engaging platform that not only reflected the barbershop’s brand but also provided an intuitive user experience.",
+      "details": {
+        "project": "Barbershop",
+        "duration": "2 months"
+      },
+      "background": "The barbershop had an existing online presence but faced challenges with its outdated design and booking process. The website did not effectively reflect the barbershop’s brand and lacked essential features for managing appointments and engaging with customers. This prompted the need for a redesign to better align with modern web standards and improve overall user satisfaction.",
+      "problem": "The existing website was outdated and difficult to navigate, with a design that did not align with contemporary aesthetics or user expectations. Additionally, the appointment booking system was cumbersome and inefficient, leading to a poor user experience and missed opportunities for customer engagement.",
+      "goals": [
+        "Redesign the website to align with modern design trends and enhance visual appeal.",
+        "Improve the appointment booking system to be more user-friendly and efficient.",
+        "Ensure that the website accurately reflects the barbershop’s brand identity.",
+        "Create a responsive design that works seamlessly across different devices."
+      ],
+      "contributions": [
+        {
+          "name": "UI Design and Prototyping",
+          "description": [
+            "I developed comprehensive visual prototypes for the barbershop’s website, focusing on modern design elements and user-centered features. The design process involved creating high-fidelity mockups and interactive prototypes to ensure that the final design met user needs and expectations."
+          ]
+        },
+        {
+          "name": "Appointment Booking System Overhaul",
+          "description": [
+            "Revamped the appointment booking system to simplify the process and improve user experience. This included implementing an intuitive calendar interface and streamlining appointment scheduling to reduce friction and enhance usability."
+          ]
+        },
+        {
+          "name": "Responsive Design Implementation",
+          "description": [
+            "Ensured that the redesigned website was fully responsive, providing an optimal viewing experience across various devices. This involved extensive testing and adjustments to guarantee that all features were accessible and functional on mobile devices and tablets."
+          ]
+        }
+      ],
+      "outcomes": [
+        {
+          "name": "Enhanced User Experience",
+          "description": "The redesigned website received positive feedback for its modern look and improved functionality. Users appreciated the intuitive navigation and streamlined booking process, leading to increased satisfaction and engagement."
+        },
+        {
+          "name": "Improved Booking Efficiency",
+          "description": "The new appointment booking system resulted in a significant reduction in booking errors and user frustration. The streamlined process led to more efficient scheduling and better management of appointments."
+        },
+        {
+          "name": "Brand Alignment",
+          "description": "The redesigned website effectively reflected the barbershop’s brand identity, contributing to a stronger online presence and better alignment with the barbershop’s image and values."
+        }
+      ],
+      "technologies": [
+        "HTML5, CSS3 (Sass/SCSS)",
+        "JavaScript",
+        "React",
+        "Figma"
+      ],
+      "conclusion": "The barbershop project exemplifies my ability to transform outdated websites into modern, user-friendly platforms. By addressing key issues related to design and functionality, I successfully enhanced the user experience and streamlined the appointment booking process. The project not only improved the barbershop’s online presence but also demonstrated my proficiency in creating effective and engaging web solutions.",
+      "impact": "The redesigned barbershop website has set a new standard for local business websites, showcasing how modern design and user-focused features can drive customer engagement and satisfaction. The successful implementation of the project has led to increased customer interactions and a stronger brand presence in the local market.",
+      "userFeedback": [
+        {
+          "feedback": "The new website design is fantastic! It’s easy to navigate and looks very professional. Scheduling appointments is now a breeze.",
+          "source": "Customer Review"
+        },
+        {
+          "feedback": "I love the new look and feel of the website. It’s clear that a lot of thought went into making it user-friendly and modern.",
+          "source": "Client Testimonial"
+        }
+      ],
+      "challenges": [
+        {
+          "challenge": "Balancing modern design with usability. The challenge was to create a visually appealing design while ensuring that it remained functional and easy to use.",
+          "solution": "I conducted user testing throughout the design process to gather feedback and make necessary adjustments, ensuring that the design was both attractive and practical."
+        },
+        {
+          "challenge": "Integrating a new booking system with existing workflows. Ensuring that the new system worked seamlessly with the barbershop’s operations was crucial.",
+          "solution": "Collaborated closely with the client to understand their workflow requirements and implemented a solution that was easy to integrate and use in their daily operations."
+        }
+      ],
+      "designIterations": [
+        {
+          "iteration": "Initial Design Concepts",
+          "description": "Developed several design concepts focusing on modern aesthetics and user-friendly features. Early feedback highlighted areas for improvement in navigation and booking functionality.",
+          "outcome": "Refined design concepts based on feedback, incorporating enhanced navigation elements and a more intuitive booking system."
+        },
+        {
+          "iteration": "Final Design and Testing",
+          "description": "Final design was implemented with high-fidelity mockups and prototypes tested with real users. Adjustments were made based on user feedback to ensure optimal performance and user satisfaction.",
+          "outcome": "Successful launch of the redesigned website with improved user experience and functionality, meeting project goals and client expectations."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Movie Listing Platform",
+      "images": [
+        {
+          "id": 0,
+          "imageUrl": "/movies-images/devices-movies.png"
+        },
+        {
+          "id": 1,
+          "imageUrl": "/movies-images/1.png"
+        },
+        {
+          "id": 2,
+          "imageUrl": "/movies-images/2.png"
+        }
+      ],
+      "description": "Movie discovery and listing application",
+      "heading": "Case Study: Movie Listing Platform Design",
+      "overview": "The Movie Listing Platform project involved designing a comprehensive movie discovery application aimed at enhancing user engagement and improving movie browsing. Over the course of one month, the project focused on creating a visually appealing interface and optimizing functionality to provide users with a seamless experience in discovering and exploring movies.",
+      "details": {
+        "project": "Movie Listing Platform",
+        "duration": "1 month"
+      },
+      "background": "With the rise of digital streaming services, the need for an engaging and efficient movie discovery platform became apparent. The project sought to address the challenge of designing an interface that not only captivates users but also provides intuitive browsing and searching capabilities for a vast movie catalog.",
+      "problem": "Existing movie listing platforms often suffered from poor user experience due to outdated designs and inefficient navigation. The challenge was to create a modern, engaging platform that offered both aesthetic appeal and functional efficiency for discovering and exploring movies.",
+      "goals": [
+        "Design an engaging and visually appealing landing page to attract users.",
+        "Develop a movie listing page with intuitive navigation and filtering options.",
+        "Incorporate interactive elements to enhance user engagement and browsing experience.",
+        "Ensure the platform is responsive and provides a consistent experience across all devices."
+      ],
+      "contributions": [
+        {
+          "name": "Landing Page Design",
+          "description": [
+            "Designed a captivating landing page featuring dynamic visuals and compelling calls-to-action. Focused on creating a strong first impression and guiding users into the movie discovery experience."
+          ]
+        },
+        {
+          "name": "Movie Listing Page Design",
+          "description": [
+            "Created an organized movie listing page with clear presentation of movie titles, posters, and ratings. Integrated filtering and sorting options to facilitate easy navigation and content discovery."
+          ]
+        },
+        {
+          "name": "Interactive Features",
+          "description": [
+            "Implemented interactive elements such as advanced filtering controls and dynamic search options to improve user engagement. Ensured features were responsive and provided a smooth user experience across devices."
+          ]
+        }
+      ],
+      "outcomes": [
+        {
+          "name": "Enhanced User Engagement",
+          "description": "The platform’s engaging design and interactive features led to increased user interaction and exploration of movie content."
+        },
+        {
+          "name": "Improved Navigation",
+          "description": "The intuitive navigation and filtering options significantly enhanced the user experience, making it easier to find and explore movies."
+        },
+        {
+          "name": "Responsive Design",
+          "description": "Ensured a consistent and user-friendly experience across various devices, contributing to overall user satisfaction."
+        }
+      ],
+      "technologies": [
+        "HTML5, CSS3 (Sass/SCSS)",
+        "JavaScript",
+        "Figma"
+      ],
+      "conclusion": "The Movie Listing Platform project successfully delivered a modern, engaging interface that enhanced the movie discovery experience. By focusing on user engagement and intuitive design, the project addressed key challenges and set a new standard for movie listing applications.",
+      "impact": "The platform has become a reference for effective movie discovery solutions, demonstrating how a well-designed interface and interactive features can significantly improve user engagement and satisfaction.",
+      "userFeedback": [
+        {
+          "feedback": "The new movie listing platform is fantastic! The design is modern and the filtering options make finding movies so much easier.",
+          "source": "User Review"
+        },
+        {
+          "feedback": "I love how interactive the platform is. It’s easy to navigate and the movie recommendations are spot on!",
+          "source": "Client Testimonial"
+        }
+      ],
+      "challenges": [
+        {
+          "challenge": "Designing an engaging landing page that captures user interest. The challenge was to create a visually appealing introduction to the platform.",
+          "solution": "Incorporated dynamic visuals and compelling content to create a strong first impression and attract users into the movie discovery experience."
+        },
+        {
+          "challenge": "Implementing advanced filtering and search functionalities. Ensuring that users could efficiently find movies based on various criteria was essential.",
+          "solution": "Developed advanced filtering controls and optimized search functionalities to enhance user experience and facilitate easier movie discovery."
+        }
+      ],
+      "designIterations": [
+        {
+          "iteration": "Initial Design Concepts",
+          "description": "Developed initial design concepts for the landing and listing pages. Focused on layout and user flow, incorporating early feedback to refine the design.",
+          "outcome": "Revised designs based on feedback, resulting in more effective navigation and improved visual appeal."
+        },
+        {
+          "iteration": "Final Design and Testing",
+          "description": "Finalized design with high-fidelity prototypes and conducted user testing to ensure functionality and user satisfaction. Implemented final adjustments based on feedback.",
+          "outcome": "Successful launch of the platform with an engaging design and smooth user experience, meeting project goals and user expectations."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Zakazivko",
+      "images": [
+        {
+          "id": 0,
+          "imageUrl": "/zakazivko-images/devices-zakazivko.png"
+        },
+        {
+          "id": 1,
+          "imageUrl": "/zakazivko-images/1.png"
+        },
+        {
+          "id": 2,
+          "imageUrl": "/zakazivko-images/2.png"
+        },
+        {
+          "id": 3,
+          "imageUrl": "/zakazivko-images/3.png"
+        }
+      ],
+      "description": "Appointment booking application",
+      "heading": "Case Study: Barbershop Appointment Scheduling Platform",
+      "overview": "The Zakazivko project involved developing a comprehensive appointment booking platform for a barbershop, aiming to enhance both client and barber experiences. Over a six-month period, we focused on creating a user-friendly interface and streamlining the booking process. The project included designing intuitive features for both clients and barbers, integrating real-time updates, and ensuring mobile accessibility.",
+      "details": {
+        "project": "Barbershop Appointment Scheduling Platform",
+        "duration": "6 months"
+      },
+      "background": "The barbershop faced challenges with its existing appointment scheduling system, which was inefficient and outdated. The goal of the Zakazivko project was to develop a modern solution that would simplify appointment management, reduce errors, and enhance overall user satisfaction. The project aimed to provide a seamless booking experience for clients and an effective management tool for barbers.",
+      "problem": "The existing system was cumbersome, leading to appointment errors and a poor user experience. There was a need for a more efficient and intuitive platform that could handle scheduling tasks more effectively and provide a better overall user experience.",
+      "goals": [
+        "Create an intuitive user interface for easy appointment booking.",
+        "Implement real-time updates to prevent double-booking and manage availability.",
+        "Enhance barber workflow through automation and efficient scheduling tools.",
+        "Develop a mobile-friendly design to allow clients to book appointments on the go."
+      ],
+      "contributions": [
+        {
+          "name": "UI/UX Design",
+          "description": [
+            "Designed a modern, user-friendly interface focusing on simplicity and ease of use. Developed interactive prototypes and high-fidelity mockups to ensure the design met user needs and expectations."
+          ]
+        },
+        {
+          "name": "Front-End Development",
+          "description": [
+            "Built the front-end components using React.js to create a responsive and interactive booking experience. Integrated real-time updates and dynamic features to improve user interactions and overall efficiency."
+          ]
+        },
+        {
+          "name": "Back-End Integration",
+          "description": [
+            "Developed the back-end functionality using Node.js and MongoDB to handle appointment scheduling, real-time updates, and data management. Ensured seamless integration with the front-end for a smooth user experience."
+          ]
+        }
+      ],
+      "outcomes": [
+        {
+          "name": "Improved Appointment Management",
+          "description": "Streamlined appointment scheduling and reduced booking errors, resulting in more efficient barber operations and better client satisfaction."
+        },
+        {
+          "name": "Enhanced User Experience",
+          "description": "Delivered a modern, intuitive interface that improved client engagement and made the booking process more straightforward and enjoyable."
+        },
+        {
+          "name": "Increased Efficiency",
+          "description": "Automated scheduling tasks and integrated real-time updates, significantly enhancing workflow for barbers and reducing appointment-related issues."
+        }
+      ],
+      "technologies": [
+        "HTML5, CSS3 (Sass/SCSS)",
+        "Typescript",
+        "Angular",
+        "Firebase",
+        "Version Control (Git)"
+      ],
+      "conclusion": "The Zakazivko project successfully modernized the barbershop's appointment booking system, enhancing user experience and operational efficiency. The new platform addressed key issues with the previous system and provided a more streamlined, effective solution for both clients and barbers.",
+      "impact": "The new appointment system set a new standard for booking solutions in the local market, demonstrating how modern technology can transform business operations and improve user satisfaction. The project’s success has paved the way for similar innovations in appointment scheduling and management.",
+      "userFeedback": [
+        {
+          "feedback": "The new system is incredibly user-friendly and makes booking appointments so much easier. It’s a huge improvement over the old system.",
+          "source": "Customer Review"
+        },
+        {
+          "feedback": "The real-time updates have greatly reduced the number of scheduling conflicts, making the booking process much smoother.",
+          "source": "Barber Testimonial"
+        }
+      ],
+      "challenges": [
+        {
+          "challenge": "Ensuring real-time updates without performance issues. Integrating real-time data updates was crucial for preventing double-booking and managing availability.",
+          "solution": "Implemented efficient data handling techniques and optimized performance to ensure real-time updates were seamless and did not affect overall system performance."
+        },
+        {
+          "challenge": "Creating a responsive design that worked well on all devices. Ensuring a consistent experience across different screen sizes was essential.",
+          "solution": "Conducted extensive testing and made design adjustments to ensure the platform was fully responsive and functional on all devices."
+        }
+      ],
+      "designIterations": [
+        {
+          "iteration": "Initial Wireframes",
+          "description": "Developed initial wireframes focusing on core functionalities and user flow. Early feedback led to adjustments in navigation and feature placement.",
+          "outcome": "Revised wireframes included improved navigation and feature organization based on user feedback."
+        },
+        {
+          "iteration": "High-Fidelity Prototypes",
+          "description": "Created high-fidelity prototypes with detailed design elements and interactive features. Conducted user testing to refine the design and functionality.",
+          "outcome": "Final design adjustments were made, resulting in a polished, user-friendly platform that met project goals and client expectations."
+        }
+      ]
+    }    
+  ]
 }
