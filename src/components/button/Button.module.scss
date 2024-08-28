@@ -2,10 +2,10 @@
     background-color: #6600cc; /* Purple */
     color: #fffff0; /* Off-white */
     padding: 10px 20px;
-    border: none;
+    border: 1px solid #6600cc;
     font-size: 16px;
     cursor: pointer;
-    text-align: start;
+    text-align: center;
     display: inline-block;
     transition: background-color 0.3s ease;
     font-family: poppins;
@@ -14,13 +14,14 @@
   
   .btn-primary:hover {
     background-color: #4b0082; /* Darker Purple */
+    border: 1px solid #4b0082;
   }
   
   .btn-secondary {
-    background-color: #4b0082; /* Dark Purple */
-    color: #fffff0; /* Off-white */
+    background-color: #fffff0; /* Dark Purple */
+    color: #141414; /* Off-white */
     padding: 10px 20px;
-    border: none;
+    border: 1px solid #141414;
     font-size: 16px;
     cursor: pointer;
     text-align: start;
@@ -32,5 +33,7 @@
   
   .btn-secondary:hover {
     background-color: #6600cc; /* Lighter Purple */
+    color: #fffff0;
+    border: #6600cc 1px solid;
   }
   

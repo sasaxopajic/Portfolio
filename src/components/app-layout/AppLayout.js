@@ -13,7 +13,6 @@ export default function AppLayout() {
                 <AppRoutes/>
             </div>
             <Footer />
-
         </div>
 
     )

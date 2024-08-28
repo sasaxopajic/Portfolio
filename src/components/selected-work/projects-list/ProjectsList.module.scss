@@ -1,0 +1,76 @@
+a {
+    color: #141414;
+    text-decoration: none;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin: 50px 200px !important;
+
+}
+
+.project-container {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #141414;
+    height: 600px;
+}
+
+.project-container>img {
+    flex: 2;
+    width: 800px;
+    height: calc(800 / 3 * 2);
+    /* Maintain aspect ratio */
+    object-fit: contain;
+    border-right: 1px solid #141414;
+    background-color: #ddff00;
+}
+
+.text-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    place-content: center;
+    padding: 0px 50px;
+}
+
+.name {
+    font-size: 36px;
+    text-transform: capitalize;
+    margin: 20px 0px;
+    font-weight: 600;
+    letter-spacing: 1px;
+
+}
+
+.description {
+    text-transform: capitalize;
+    font-weight: 400;
+}
+
+.heading {
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: -0.5px;
+    margin: 10px 0px;
+}
+
+.contributions-container {
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: 400;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.contribution {
+    white-space: nowrap;
+    margin-right: 0.25rem;
+
+    &:not(:last-child)::after {
+        content: '| ';
+        margin-left: 0.25rem;
+    }
+}

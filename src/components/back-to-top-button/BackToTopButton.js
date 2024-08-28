@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
-import './BackToTopButton.module.scss';
+import styles from './BackToTopButton.module.scss';
 
 const BackToTopButton = () => {
   const [visible, setVisible] = useState(false);
 
-  useEffect(() => {
+  useEffect(function scrollToTopOnButtonClick() {
     const handleScroll = () => {
       if (window.scrollY > 300) { 
         setVisible(true);
@@ -29,7 +29,7 @@ const BackToTopButton = () => {
 
   return (
     <button
-      className={`back-to-top ${visible ? 'visible' : ''}`}
+      className={` ${styles["scroll-to-top-button"]} back-to-top ${visible ? 'visible' : ''}`}
       onClick={scrollToTop}
     >
       ↑

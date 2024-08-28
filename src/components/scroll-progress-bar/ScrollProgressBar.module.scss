@@ -1,6 +1,6 @@
 .scroll-line-wrapper {
     position: sticky;
-    top: 60px; /* Align to the bottom of the navbar */
+    top: 64px; /* Align to the bottom of the navbar */
     left: 0; /* Align to the left edge of the viewport */
     width: 100%; /* Full width of the viewport */
     height: 5px; /* Height of the scroll line */
@@ -14,6 +14,13 @@
 /* Scroll line styles */
 .scroll-line {
     height: 100%; /* Full height of the scroll line */
-    background-color: #6600cc; /* Color of the scroll line */
-    transition: width 0.1s ease; /* Smooth transition effect */
+background: linear-gradient(
+    to right,
+    #E40303,  /* Red */
+    #FF8C00,  /* Orange */
+    #FFEB00,  /* Yellow */
+    #008A00,  /* Green */
+    #004DFF,  /* Blue */
+    #750787   /* Purple */
+  );    transition: width 0.1s ease; /* Smooth transition effect */
 }

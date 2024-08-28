@@ -14,7 +14,7 @@ const ScrollProgressBar = () => {
         setScrollPercentage(percentage);
     };
 
-    useEffect(() => {
+    useEffect(function scrollProgressBar() {
         window.addEventListener('scroll', updateScrollLine);
         return () => window.removeEventListener('scroll', updateScrollLine);
     }, []);

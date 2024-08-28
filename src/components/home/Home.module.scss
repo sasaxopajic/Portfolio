@@ -8,20 +8,15 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-}
+  justify-content: center;
+  width: 100%;
+  margin: 100px 0;
 
-.heading {
-  display: flex;
-  font-family: '04b30';
-  text-transform: uppercase;
-  flex-direction: column;
-  align-items: center;
-  font-size: 40px;
-  padding: 80px 0px;
-  gap: 10px;
 }
 
 .rotate {
+  position: relative;
+  right: -10%;
   animation: rotate 30s linear infinite;
 }
 
@@ -36,6 +31,8 @@
 }
 
 .rotate-counterclockwise {
+  position: relative;
+  left: -10%;
   animation: counterclockwise 30s linear infinite;
 }
 
@@ -48,7 +45,18 @@
     transform: rotate(-405deg);
   }
 }
-
+/* 
+.heading {
+  display: flex;
+  font-family: '04b30';
+  text-transform: uppercase;
+  flex-direction: column;
+  align-items: center;
+  font-size: 40px;
+  padding: 80px 0px;
+  gap: 10px;
+}
+  
 .decoration {
   display: flex;
   flex-direction: row;
@@ -68,34 +76,39 @@
   right: -100px;
 }
 
-/* .decoration {
+.decoration {
   cursor: pointer; 
-} */
+} 
 
 .star:hover {
-    animation: rotateStar 1s cubic-bezier(0.1, 1, 0.8, 1) forwards; /* Apply rotation animation with custom easing */
+    animation: rotateStar 1s cubic-bezier(0.1, 1, 0.8, 1) forwards; 
     cursor: pointer;
 }
 
 @keyframes rotateStar {
     from {
-        transform: rotate(0deg); /* Start at 0 degrees */
+        transform: rotate(0deg); x
     }
     to {
-        transform: rotate(360deg*2 + 45); /* End at 360 degrees */
+        transform: rotate(360deg*2 + 45);  xs
     }
 }
-
+*/
 .welcome{
-  width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  text-align: justify;
+  width: 100%;
+  flex: 2;
 }
 
-p {
-  width: 400px;
-  text-align: justify;
-  line-height: 22px;
-  letter-spacing: -0.25px;
-  font-weight: 300;
+h1{
+  text-align: start;
+  font-weight: 600;
+  letter-spacing: -1px;
+  font-size: 36px;
+  line-height: 48px;
 }
 
 a{
@@ -103,6 +116,7 @@ a{
   text-decoration: none;
 }
 
-.stroke{
+.planet{
   stroke-width: 0.5;
+  flex: 1;
 }
